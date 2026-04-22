@@ -233,13 +233,15 @@ public class Principal {
                     break;
                 }
 
+                case 99:
+                    System.out.println("Encerrando o programa");
+                    break;
+
                 default: {
                     System.out.println("Opção inválida");
                     break;
                 }
             }
         } while (opcao != 99);
-
-        System.out.println("Programa encerrado.");
     }
 }
