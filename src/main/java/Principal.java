@@ -10,14 +10,14 @@ public class Principal {
         int[] numeros = new int[100];
         int opcao = -1;
 
-        //q
+        //r
         do {
             opcao = Integer.parseInt(JOptionPane.showInputDialog(
                     "MENU:\n"
                     + "1 - Leitura do vetor\n"
                     + "2 - Verificar existência de valor\n"
-                    + "3 - Mostrar posição de valor\n"
-                    + "4 - Contar ocorrências de valor\n"
+                    + "3 - Mostra posição de valor\n"
+                    + "4 - Conta ocorrências de valor\n"
                     + "5 - Menor valor e posição\n"
                     + "6 - Maior valor e posição\n"
                     + "7 - Valor central\n"
@@ -30,7 +30,8 @@ public class Principal {
                     + "14- Média\n"
                     + "15- Valores maiores que a média\n"
                     + "16- Vetor inverso\n"
-                    + "17- Ordenar vetor\n"
+                    + "17- Ordena vetor\n"
+                    + "18- Mostra vetor\n"
                     + "99 - Sair"
             ));
 
@@ -51,7 +52,7 @@ public class Principal {
                 }
 
                 case 2: { //a)
-                    int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));                    
+                    int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));
                     for (int i = 0; i < n; i++) {
                         if (numeros[i] == valor) {
                             System.out.println("O valor " + valor + " existe no vetor.");
@@ -225,6 +226,14 @@ public class Principal {
                     }
 
                     System.out.println("Vetor ordenado:");
+                    for (int i = 0; i < n; i++) {
+                        System.out.println(numeros[i]);
+                    }
+                    break;
+                }
+
+                case 18: { //q
+                    System.out.println("Vetor:");
                     for (int i = 0; i < n; i++) {
                         System.out.println(numeros[i]);
                     }

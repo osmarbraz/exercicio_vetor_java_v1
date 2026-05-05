@@ -1,4 +1,4 @@
-# Exercício com vetor em java
+# Exercício com vetor em java.
 
 Elabore um algoritmo que leia um vetor A de números inteiros, com tamanho N (máximo de 100 elementos). 
 Após a leitura, o algoritmo deve apresentar as seguintes informações:
@@ -35,4 +35,6 @@ o) Mostrar os valores do vetor em ordem inversa.
 
 p) Ordenar o vetor em ordem crescente e exibir o resultado.
 
-q) Crie um menu para acessar as alternativas anteriores.
+q) Mostrar os valores do vetor.
+
+r) Crie um menu para acessar as alternativas anteriores.
