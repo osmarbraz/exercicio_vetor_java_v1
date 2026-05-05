@@ -51,9 +51,7 @@ public class Principal {
                 }
 
                 case 2: { //a)
-                    int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));
-                    boolean existe = false;
-
+                    int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));                    
                     for (int i = 0; i < n; i++) {
                         if (numeros[i] == valor) {
                             System.out.println("O valor " + valor + " existe no vetor.");
